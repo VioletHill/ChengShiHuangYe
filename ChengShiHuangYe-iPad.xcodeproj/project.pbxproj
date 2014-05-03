@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CC0CF2191226F200CD3A19 /* CyperusCompressus.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF1191226F200CD3A19 /* CyperusCompressus.m */; };
+		24CC0CF51912282900CD3A19 /* AdiantumPedatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF41912282900CD3A19 /* AdiantumPedatum.m */; };
+		24CC0CF8191228E500CD3A19 /* Pachysandraterminalis.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF7191228E500CD3A19 /* Pachysandraterminalis.m */; };
+		24CC0CFB191229DD00CD3A19 /* RhaphiolepisIndica.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CFA191229DD00CD3A19 /* RhaphiolepisIndica.m */; };
+		24FBFA79191202800019BBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA78191202800019BBAD /* Foundation.framework */; };
+		24FBFA7B191202800019BBAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA7A191202800019BBAD /* CoreGraphics.framework */; };
+		24FBFA7D191202800019BBAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA7C191202800019BBAD /* UIKit.framework */; };
+		24FBFA83191202800019BBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFA81191202800019BBAD /* InfoPlist.strings */; };
+		24FBFA85191202800019BBAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA84191202800019BBAD /* main.m */; };
+		24FBFA89191202800019BBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA88191202800019BBAD /* AppDelegate.m */; };
+		24FBFA8C191202800019BBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFA8A191202800019BBAD /* Main.storyboard */; };
+		24FBFA8F191202800019BBAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA8E191202800019BBAD /* ViewController.m */; };
+		24FBFA91191202800019BBAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFA90191202800019BBAD /* Images.xcassets */; };
+		24FBFA98191202810019BBAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA97191202810019BBAD /* XCTest.framework */; };
+		24FBFA99191202810019BBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA78191202800019BBAD /* Foundation.framework */; };
+		24FBFA9A191202810019BBAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA7C191202800019BBAD /* UIKit.framework */; };
+		24FBFAA2191202810019BBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFAA0191202810019BBAD /* InfoPlist.strings */; };
+		24FBFAA4191202810019BBAD /* ChengShiHuangYe_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAA3191202810019BBAD /* ChengShiHuangYe_iPadTests.m */; };
+		24FBFAB3191205810019BBAD /* LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAB2191205810019BBAD /* LayerView.m */; };
+		24FBFAB6191205E30019BBAD /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAB5191205E30019BBAD /* HomeView.m */; };
+		24FBFABA1912074A0019BBAD /* Gravity.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAB91912074A0019BBAD /* Gravity.m */; };
+		24FBFABC191207B80019BBAD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFABB191207B80019BBAD /* CoreMotion.framework */; };
+		24FBFABF191216980019BBAD /* PlantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFABE191216980019BBAD /* PlantInfo.m */; };
+		24FBFAC2191217180019BBAD /* ScutellariaIndica.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAC1191217180019BBAD /* ScutellariaIndica.m */; };
+		24FBFAC619121DC30019BBAD /* HomeViewPlantBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAC519121DC30019BBAD /* HomeViewPlantBuilder.m */; };
+		24FBFAC9191221630019BBAD /* DesmodiumCaudatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAC8191221630019BBAD /* DesmodiumCaudatum.m */; };
+		24FBFACC191222DA0019BBAD /* LysimachiaChristinae.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFACB191222DA0019BBAD /* LysimachiaChristinae.m */; };
+		24FBFAD2191224CE0019BBAD /* MyurocladaMaxmowiczii.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAD1191224CE0019BBAD /* MyurocladaMaxmowiczii.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24FBFA9B191202810019BBAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24FBFA6D191202800019BBAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FBFA74191202800019BBAD;
+			remoteInfo = "ChengShiHuangYe-iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CC0CF0191226F200CD3A19 /* CyperusCompressus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyperusCompressus.h; sourceTree = "<group>"; };
+		24CC0CF1191226F200CD3A19 /* CyperusCompressus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyperusCompressus.m; sourceTree = "<group>"; };
+		24CC0CF31912282900CD3A19 /* AdiantumPedatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdiantumPedatum.h; sourceTree = "<group>"; };
+		24CC0CF41912282900CD3A19 /* AdiantumPedatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdiantumPedatum.m; sourceTree = "<group>"; };
+		24CC0CF6191228E500CD3A19 /* Pachysandraterminalis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pachysandraterminalis.h; sourceTree = "<group>"; };
+		24CC0CF7191228E500CD3A19 /* Pachysandraterminalis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pachysandraterminalis.m; sourceTree = "<group>"; };
+		24CC0CF9191229DD00CD3A19 /* RhaphiolepisIndica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhaphiolepisIndica.h; sourceTree = "<group>"; };
+		24CC0CFA191229DD00CD3A19 /* RhaphiolepisIndica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RhaphiolepisIndica.m; sourceTree = "<group>"; };
+		24FBFA75191202800019BBAD /* ChengShiHuangYe-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChengShiHuangYe-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FBFA78191202800019BBAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24FBFA7A191202800019BBAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24FBFA7C191202800019BBAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24FBFA80191202800019BBAD /* ChengShiHuangYe-iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChengShiHuangYe-iPad-Info.plist"; sourceTree = "<group>"; };
+		24FBFA82191202800019BBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24FBFA84191202800019BBAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24FBFA86191202800019BBAD /* ChengShiHuangYe-iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChengShiHuangYe-iPad-Prefix.pch"; sourceTree = "<group>"; };
+		24FBFA87191202800019BBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24FBFA88191202800019BBAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24FBFA8B191202800019BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24FBFA8D191202800019BBAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24FBFA8E191202800019BBAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24FBFA90191202800019BBAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24FBFA96191202800019BBAD /* ChengShiHuangYe-iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChengShiHuangYe-iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FBFA97191202810019BBAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24FBFA9F191202810019BBAD /* ChengShiHuangYe-iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChengShiHuangYe-iPadTests-Info.plist"; sourceTree = "<group>"; };
+		24FBFAA1191202810019BBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24FBFAA3191202810019BBAD /* ChengShiHuangYe_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChengShiHuangYe_iPadTests.m; sourceTree = "<group>"; };
+		24FBFAB1191205810019BBAD /* LayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerView.h; sourceTree = "<group>"; };
+		24FBFAB2191205810019BBAD /* LayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerView.m; sourceTree = "<group>"; };
+		24FBFAB4191205E30019BBAD /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		24FBFAB5191205E30019BBAD /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		24FBFAB81912074A0019BBAD /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
+		24FBFAB91912074A0019BBAD /* Gravity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gravity.m; sourceTree = "<group>"; };
+		24FBFABB191207B80019BBAD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		24FBFABD191216980019BBAD /* PlantInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantInfo.h; sourceTree = "<group>"; };
+		24FBFABE191216980019BBAD /* PlantInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantInfo.m; sourceTree = "<group>"; };
+		24FBFAC0191217180019BBAD /* ScutellariaIndica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScutellariaIndica.h; sourceTree = "<group>"; };
+		24FBFAC1191217180019BBAD /* ScutellariaIndica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScutellariaIndica.m; sourceTree = "<group>"; };
+		24FBFAC419121DC30019BBAD /* HomeViewPlantBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewPlantBuilder.h; sourceTree = "<group>"; };
+		24FBFAC519121DC30019BBAD /* HomeViewPlantBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewPlantBuilder.m; sourceTree = "<group>"; };
+		24FBFAC7191221630019BBAD /* DesmodiumCaudatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesmodiumCaudatum.h; sourceTree = "<group>"; };
+		24FBFAC8191221630019BBAD /* DesmodiumCaudatum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesmodiumCaudatum.m; sourceTree = "<group>"; };
+		24FBFACA191222DA0019BBAD /* LysimachiaChristinae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LysimachiaChristinae.h; sourceTree = "<group>"; };
+		24FBFACB191222DA0019BBAD /* LysimachiaChristinae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LysimachiaChristinae.m; sourceTree = "<group>"; };
+		24FBFAD0191224CE0019BBAD /* MyurocladaMaxmowiczii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyurocladaMaxmowiczii.h; sourceTree = "<group>"; };
+		24FBFAD1191224CE0019BBAD /* MyurocladaMaxmowiczii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyurocladaMaxmowiczii.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FBFA72191202800019BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFABC191207B80019BBAD /* CoreMotion.framework in Frameworks */,
+				24FBFA7B191202800019BBAD /* CoreGraphics.framework in Frameworks */,
+				24FBFA7D191202800019BBAD /* UIKit.framework in Frameworks */,
+				24FBFA79191202800019BBAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FBFA93191202800019BBAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFA98191202810019BBAD /* XCTest.framework in Frameworks */,
+				24FBFA9A191202810019BBAD /* UIKit.framework in Frameworks */,
+				24FBFA99191202810019BBAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FBFA6C191202800019BBAD = {
+			isa = PBXGroup;
+			children = (
+				24FBFA7E191202800019BBAD /* ChengShiHuangYe-iPad */,
+				24FBFA9D191202810019BBAD /* ChengShiHuangYe-iPadTests */,
+				24FBFA77191202800019BBAD /* Frameworks */,
+				24FBFA76191202800019BBAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24FBFA76191202800019BBAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFA75191202800019BBAD /* ChengShiHuangYe-iPad.app */,
+				24FBFA96191202800019BBAD /* ChengShiHuangYe-iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24FBFA77191202800019BBAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFABB191207B80019BBAD /* CoreMotion.framework */,
+				24FBFA78191202800019BBAD /* Foundation.framework */,
+				24FBFA7A191202800019BBAD /* CoreGraphics.framework */,
+				24FBFA7C191202800019BBAD /* UIKit.framework */,
+				24FBFA97191202810019BBAD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24FBFA7E191202800019BBAD /* ChengShiHuangYe-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFAB0191205440019BBAD /* LayerView */,
+				24FBFA87191202800019BBAD /* AppDelegate.h */,
+				24FBFA88191202800019BBAD /* AppDelegate.m */,
+				24FBFA8A191202800019BBAD /* Main.storyboard */,
+				24FBFA8D191202800019BBAD /* ViewController.h */,
+				24FBFA8E191202800019BBAD /* ViewController.m */,
+				24FBFA90191202800019BBAD /* Images.xcassets */,
+				24FBFA7F191202800019BBAD /* Supporting Files */,
+			);
+			path = "ChengShiHuangYe-iPad";
+			sourceTree = "<group>";
+		};
+		24FBFA7F191202800019BBAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFA80191202800019BBAD /* ChengShiHuangYe-iPad-Info.plist */,
+				24FBFA81191202800019BBAD /* InfoPlist.strings */,
+				24FBFA84191202800019BBAD /* main.m */,
+				24FBFA86191202800019BBAD /* ChengShiHuangYe-iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FBFA9D191202810019BBAD /* ChengShiHuangYe-iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFAA3191202810019BBAD /* ChengShiHuangYe_iPadTests.m */,
+				24FBFA9E191202810019BBAD /* Supporting Files */,
+			);
+			path = "ChengShiHuangYe-iPadTests";
+			sourceTree = "<group>";
+		};
+		24FBFA9E191202810019BBAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFA9F191202810019BBAD /* ChengShiHuangYe-iPadTests-Info.plist */,
+				24FBFAA0191202810019BBAD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24FBFAB0191205440019BBAD /* LayerView */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFAB1191205810019BBAD /* LayerView.h */,
+				24FBFAB2191205810019BBAD /* LayerView.m */,
+				24FBFAB7191207270019BBAD /* HomeView */,
+			);
+			name = LayerView;
+			sourceTree = "<group>";
+		};
+		24FBFAB7191207270019BBAD /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFAB4191205E30019BBAD /* HomeView.h */,
+				24FBFAB5191205E30019BBAD /* HomeView.m */,
+				24FBFAB81912074A0019BBAD /* Gravity.h */,
+				24FBFAB91912074A0019BBAD /* Gravity.m */,
+				24FBFAC31912171D0019BBAD /* Plant */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		24FBFAC31912171D0019BBAD /* Plant */ = {
+			isa = PBXGroup;
+			children = (
+				24FBFABD191216980019BBAD /* PlantInfo.h */,
+				24FBFABE191216980019BBAD /* PlantInfo.m */,
+				24FBFAC419121DC30019BBAD /* HomeViewPlantBuilder.h */,
+				24FBFAC519121DC30019BBAD /* HomeViewPlantBuilder.m */,
+				24FBFAC0191217180019BBAD /* ScutellariaIndica.h */,
+				24FBFAC1191217180019BBAD /* ScutellariaIndica.m */,
+				24FBFAC7191221630019BBAD /* DesmodiumCaudatum.h */,
+				24FBFAC8191221630019BBAD /* DesmodiumCaudatum.m */,
+				24FBFACA191222DA0019BBAD /* LysimachiaChristinae.h */,
+				24FBFACB191222DA0019BBAD /* LysimachiaChristinae.m */,
+				24FBFAD0191224CE0019BBAD /* MyurocladaMaxmowiczii.h */,
+				24FBFAD1191224CE0019BBAD /* MyurocladaMaxmowiczii.m */,
+				24CC0CF0191226F200CD3A19 /* CyperusCompressus.h */,
+				24CC0CF1191226F200CD3A19 /* CyperusCompressus.m */,
+				24CC0CF31912282900CD3A19 /* AdiantumPedatum.h */,
+				24CC0CF41912282900CD3A19 /* AdiantumPedatum.m */,
+				24CC0CF6191228E500CD3A19 /* Pachysandraterminalis.h */,
+				24CC0CF7191228E500CD3A19 /* Pachysandraterminalis.m */,
+				24CC0CF9191229DD00CD3A19 /* RhaphiolepisIndica.h */,
+				24CC0CFA191229DD00CD3A19 /* RhaphiolepisIndica.m */,
+			);
+			name = Plant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FBFA74191202800019BBAD /* ChengShiHuangYe-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FBFAA7191202810019BBAD /* Build configuration list for PBXNativeTarget "ChengShiHuangYe-iPad" */;
+			buildPhases = (
+				24FBFA71191202800019BBAD /* Sources */,
+				24FBFA72191202800019BBAD /* Frameworks */,
+				24FBFA73191202800019BBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChengShiHuangYe-iPad";
+			productName = "ChengShiHuangYe-iPad";
+			productReference = 24FBFA75191202800019BBAD /* ChengShiHuangYe-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24FBFA95191202800019BBAD /* ChengShiHuangYe-iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FBFAAA191202810019BBAD /* Build configuration list for PBXNativeTarget "ChengShiHuangYe-iPadTests" */;
+			buildPhases = (
+				24FBFA92191202800019BBAD /* Sources */,
+				24FBFA93191202800019BBAD /* Frameworks */,
+				24FBFA94191202800019BBAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FBFA9C191202810019BBAD /* PBXTargetDependency */,
+			);
+			name = "ChengShiHuangYe-iPadTests";
+			productName = "ChengShiHuangYe-iPadTests";
+			productReference = 24FBFA96191202800019BBAD /* ChengShiHuangYe-iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24FBFA6D191202800019BBAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = TongjiUniversity;
+				TargetAttributes = {
+					24FBFA95191202800019BBAD = {
+						TestTargetID = 24FBFA74191202800019BBAD;
+					};
+				};
+			};
+			buildConfigurationList = 24FBFA70191202800019BBAD /* Build configuration list for PBXProject "ChengShiHuangYe-iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24FBFA6C191202800019BBAD;
+			productRefGroup = 24FBFA76191202800019BBAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FBFA74191202800019BBAD /* ChengShiHuangYe-iPad */,
+				24FBFA95191202800019BBAD /* ChengShiHuangYe-iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FBFA73191202800019BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFA91191202800019BBAD /* Images.xcassets in Resources */,
+				24FBFA83191202800019BBAD /* InfoPlist.strings in Resources */,
+				24FBFA8C191202800019BBAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FBFA94191202800019BBAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFAA2191202810019BBAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24FBFA71191202800019BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFAD2191224CE0019BBAD /* MyurocladaMaxmowiczii.m in Sources */,
+				24FBFA8F191202800019BBAD /* ViewController.m in Sources */,
+				24FBFACC191222DA0019BBAD /* LysimachiaChristinae.m in Sources */,
+				24CC0CF51912282900CD3A19 /* AdiantumPedatum.m in Sources */,
+				24FBFAC9191221630019BBAD /* DesmodiumCaudatum.m in Sources */,
+				24CC0CFB191229DD00CD3A19 /* RhaphiolepisIndica.m in Sources */,
+				24CC0CF2191226F200CD3A19 /* CyperusCompressus.m in Sources */,
+				24FBFAC619121DC30019BBAD /* HomeViewPlantBuilder.m in Sources */,
+				24FBFA89191202800019BBAD /* AppDelegate.m in Sources */,
+				24FBFAB6191205E30019BBAD /* HomeView.m in Sources */,
+				24CC0CF8191228E500CD3A19 /* Pachysandraterminalis.m in Sources */,
+				24FBFAB3191205810019BBAD /* LayerView.m in Sources */,
+				24FBFABF191216980019BBAD /* PlantInfo.m in Sources */,
+				24FBFABA1912074A0019BBAD /* Gravity.m in Sources */,
+				24FBFA85191202800019BBAD /* main.m in Sources */,
+				24FBFAC2191217180019BBAD /* ScutellariaIndica.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FBFA92191202800019BBAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FBFAA4191202810019BBAD /* ChengShiHuangYe_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24FBFA9C191202810019BBAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FBFA74191202800019BBAD /* ChengShiHuangYe-iPad */;
+			targetProxy = 24FBFA9B191202810019BBAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24FBFA81191202800019BBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FBFA82191202800019BBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24FBFA8A191202800019BBAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FBFA8B191202800019BBAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24FBFAA0191202810019BBAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FBFAA1191202810019BBAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24FBFAA5191202810019BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		24FBFAA6191202810019BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24FBFAA8191202810019BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Prefix.pch";
+				INFOPLIST_FILE = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24FBFAA9191202810019BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Prefix.pch";
+				INFOPLIST_FILE = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24FBFAAB191202810019BBAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChengShiHuangYe-iPad.app/ChengShiHuangYe-iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChengShiHuangYe-iPadTests/ChengShiHuangYe-iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24FBFAAC191202810019BBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChengShiHuangYe-iPad.app/ChengShiHuangYe-iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChengShiHuangYe-iPad/ChengShiHuangYe-iPad-Prefix.pch";
+				INFOPLIST_FILE = "ChengShiHuangYe-iPadTests/ChengShiHuangYe-iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FBFA70191202800019BBAD /* Build configuration list for PBXProject "ChengShiHuangYe-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FBFAA5191202810019BBAD /* Debug */,
+				24FBFAA6191202810019BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FBFAA7191202810019BBAD /* Build configuration list for PBXNativeTarget "ChengShiHuangYe-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FBFAA8191202810019BBAD /* Debug */,
+				24FBFAA9191202810019BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FBFAAA191202810019BBAD /* Build configuration list for PBXNativeTarget "ChengShiHuangYe-iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FBFAAB191202810019BBAD /* Debug */,
+				24FBFAAC191202810019BBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24FBFA6D191202800019BBAD /* Project object */;
+}
