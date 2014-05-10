@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,156 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Sample View Controller-->
+        <scene sceneID="9FN-yc-zxr">
+            <objects>
+                <viewController storyboardIdentifier="sampleViewController" id="fwL-HT-uyJ" customClass="SampleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xWm-sa-Axh"/>
+                        <viewControllerLayoutGuide type="bottom" id="4IR-mO-6w2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CMJ-5S-HsL">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sampleBg" translatesAutoresizingMaskIntoConstraints="NO" id="uHq-b1-bA5">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4P4-Or-wBH" userLabel="boxContainerView">
+                                <rect key="frame" x="390" y="83" width="317" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box2" translatesAutoresizingMaskIntoConstraints="NO" id="i4G-iX-oIQ">
+                                        <rect key="frame" x="0.0" y="170" width="317" height="380"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coarseSoil1" translatesAutoresizingMaskIntoConstraints="NO" id="6YW-Nn-LXj">
+                                        <rect key="frame" x="20" y="385" width="283" height="117"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cultureSoil1" translatesAutoresizingMaskIntoConstraints="NO" id="W8l-VV-cEL">
+                                        <rect key="frame" x="17" y="262" width="283" height="195"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="decorateSoil1" translatesAutoresizingMaskIntoConstraints="NO" id="E6z-Yt-tT1">
+                                        <rect key="frame" x="18" y="240" width="282" height="82"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant6" translatesAutoresizingMaskIntoConstraints="NO" id="g9F-XO-kEa">
+                                        <rect key="frame" x="58" y="120" width="67" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant7" translatesAutoresizingMaskIntoConstraints="NO" id="Dad-my-VFJ">
+                                        <rect key="frame" x="149" y="69" width="50" height="178"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant4" translatesAutoresizingMaskIntoConstraints="NO" id="efp-9J-pKS">
+                                        <rect key="frame" x="174" y="125" width="117" height="122"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant2" translatesAutoresizingMaskIntoConstraints="NO" id="nnP-zz-PUD">
+                                        <rect key="frame" x="138" y="180" width="144" height="87"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant1" translatesAutoresizingMaskIntoConstraints="NO" id="SiP-k1-7MB">
+                                        <rect key="frame" x="52" y="166" width="147" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant3" translatesAutoresizingMaskIntoConstraints="NO" id="VGK-lb-NBj">
+                                        <rect key="frame" x="31" y="231" width="182" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant5" translatesAutoresizingMaskIntoConstraints="NO" id="BLh-4H-nDw">
+                                        <rect key="frame" x="187" y="165" width="57" height="127"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box1" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-Nh-Jxh" userLabel="Image View - box1">
+                                        <rect key="frame" x="0.0" y="170" width="317" height="380"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3X-u5-as2">
+                                        <rect key="frame" x="0.0" y="0.0" width="317" height="550"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="rJZ-vl-z4r" appends="YES" id="8Ys-Pr-GMR"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="doubleClickGuide" translatesAutoresizingMaskIntoConstraints="NO" id="YfS-gH-ufV">
+                                <rect key="frame" x="766" y="367" width="76" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="boxContainerView" destination="4P4-Or-wBH" id="fd1-Sd-4Sf"/>
+                        <outlet property="coarseSoil" destination="6YW-Nn-LXj" id="BaL-gY-uTl"/>
+                        <outlet property="cultureSoil" destination="W8l-VV-cEL" id="mPe-kd-yMu"/>
+                        <outlet property="decorateSoil" destination="E6z-Yt-tT1" id="wg6-80-Owm"/>
+                        <outlet property="doubleClickGuide" destination="YfS-gH-ufV" id="D6z-Qe-HNQ"/>
+                        <outlet property="plant1" destination="SiP-k1-7MB" id="7Qr-OL-TjC"/>
+                        <outlet property="plant2" destination="nnP-zz-PUD" id="k2T-7B-VxF"/>
+                        <outlet property="plant3" destination="VGK-lb-NBj" id="cHP-Ud-6ej"/>
+                        <outlet property="plant4" destination="efp-9J-pKS" id="xGX-BE-l4B"/>
+                        <outlet property="plant5" destination="BLh-4H-nDw" id="JoP-uz-Tss"/>
+                        <outlet property="plant6" destination="g9F-XO-kEa" id="AIp-5v-ux7"/>
+                        <outlet property="plant7" destination="Dad-my-VFJ" id="AGQ-nE-kV4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KEf-Jk-S2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="rJZ-vl-z4r">
+                    <connections>
+                        <action selector="sampleTapGesture:" destination="fwL-HT-uyJ" id="q1b-v1-7cN"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="672" y="271"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NS1-aA-QBb">
+            <objects>
+                <viewController id="DqQ-ZA-dA1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L1N-AE-dvl"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dnm-Ht-JMu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u8b-Z4-Q7q">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atN-5V-1wf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
+    <resources>
+        <image name="box1" width="317" height="380"/>
+        <image name="box2" width="317" height="380"/>
+        <image name="coarseSoil1" width="283" height="117"/>
+        <image name="cultureSoil1" width="283" height="195"/>
+        <image name="decorateSoil1" width="282" height="82"/>
+        <image name="doubleClickGuide" width="76" height="108"/>
+        <image name="plant1" width="147" height="101"/>
+        <image name="plant2" width="144" height="87"/>
+        <image name="plant3" width="182" height="55"/>
+        <image name="plant4" width="117" height="122"/>
+        <image name="plant5" width="57" height="127"/>
+        <image name="plant6" width="66" height="127"/>
+        <image name="plant7" width="50" height="178"/>
+        <image name="sampleBg" width="1024" height="768"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

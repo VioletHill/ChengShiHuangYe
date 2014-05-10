@@ -13,6 +13,8 @@
 
 +(Gravity*) sharedGravity;
 
++(void) purge;
+
 -(CMAcceleration) getGravity;
 
 -(void) startMotion;

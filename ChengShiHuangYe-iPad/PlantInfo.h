@@ -18,4 +18,6 @@
 
 -(void) hidePlant:(id)sender;
 
+-(void) bubbleShine;
+
 @end

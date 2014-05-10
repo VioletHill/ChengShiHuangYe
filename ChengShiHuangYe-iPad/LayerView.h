@@ -8,7 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol ControllerDelegate <NSObject>
+
+-(void) gotoNextController;
+
+@end
+
 @interface LayerView : UIView
+
+@property (nonatomic,weak) UIViewController<ControllerDelegate>* controllerDelegate;
 
 -(void) setNextLayer;
 

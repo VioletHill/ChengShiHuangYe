@@ -7,10 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24868E6519163465002E8F67 /* SlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 24868E6419163465002E8F67 /* SlideMenu.m */; };
+		24A4A642191729520054A67A /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4A641191729520054A67A /* MenuButton.m */; };
+		24A4A64619172AB30054A67A /* CoarseBubbleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4A64519172AB30054A67A /* CoarseBubbleItem.m */; };
+		24A4A64919172D070054A67A /* CoarseBubbleItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4A64819172D070054A67A /* CoarseBubbleItem1.m */; };
+		24A4A64D191740C60054A67A /* CoarseBubbleItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4A64C191740C60054A67A /* CoarseBubbleItemBuilder.m */; };
+		24A4A65119174B420054A67A /* CoarseBubbleItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4A65019174B420054A67A /* CoarseBubbleItem2.m */; };
+		24BA92031914F80400DB4067 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BA92021914F80400DB4067 /* SampleViewController.m */; };
 		24CC0CF2191226F200CD3A19 /* CyperusCompressus.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF1191226F200CD3A19 /* CyperusCompressus.m */; };
 		24CC0CF51912282900CD3A19 /* AdiantumPedatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF41912282900CD3A19 /* AdiantumPedatum.m */; };
 		24CC0CF8191228E500CD3A19 /* Pachysandraterminalis.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CF7191228E500CD3A19 /* Pachysandraterminalis.m */; };
 		24CC0CFB191229DD00CD3A19 /* RhaphiolepisIndica.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CC0CFA191229DD00CD3A19 /* RhaphiolepisIndica.m */; };
+		24D1324D191A035400B3B1A2 /* PlantBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1324C191A035400B3B1A2 /* PlantBubble.m */; };
+		24D13250191A07D900B3B1A2 /* PlantBubble1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1324F191A07D900B3B1A2 /* PlantBubble1.m */; };
+		24D13254191A0A8600B3B1A2 /* PlantBubbleItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D13253191A0A8600B3B1A2 /* PlantBubbleItemBuilder.m */; };
+		24D13257191A116100B3B1A2 /* PlantBubble2.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D13256191A116100B3B1A2 /* PlantBubble2.m */; };
+		24D1325A191A11A600B3B1A2 /* PlantBubble3.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D13259191A11A600B3B1A2 /* PlantBubble3.m */; };
+		24D1325D191A11F900B3B1A2 /* PlantBubble4.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1325C191A11F900B3B1A2 /* PlantBubble4.m */; };
+		24D13260191A123600B3B1A2 /* PlantBubble5.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D1325F191A123600B3B1A2 /* PlantBubble5.m */; };
+		24D13263191A127300B3B1A2 /* PlantBubble6.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D13262191A127300B3B1A2 /* PlantBubble6.m */; };
+		24D13266191A129A00B3B1A2 /* PlantBubble7.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D13265191A129A00B3B1A2 /* PlantBubble7.m */; };
+		24E9C7B81918843500B509BA /* CultureBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7B71918843500B509BA /* CultureBubble.m */; };
+		24E9C7BB1918847200B509BA /* CultureBubble1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7BA1918847200B509BA /* CultureBubble1.m */; };
+		24E9C7BE191884DA00B509BA /* CultureBubble2.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7BD191884DA00B509BA /* CultureBubble2.m */; };
+		24E9C7C21918858B00B509BA /* CultureBubbleItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7C11918858B00B509BA /* CultureBubbleItemBuilder.m */; };
+		24E9C7C91918971300B509BA /* DecorateBubbleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7C81918971300B509BA /* DecorateBubbleItem.m */; };
+		24E9C7CC1918973C00B509BA /* DecorateBubbleItem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7CB1918973C00B509BA /* DecorateBubbleItem1.m */; };
+		24E9C7CF1918978D00B509BA /* DecorateBubbleItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7CE1918978D00B509BA /* DecorateBubbleItem2.m */; };
+		24E9C7D2191897A900B509BA /* DecorateBubbleItem3.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7D1191897A900B509BA /* DecorateBubbleItem3.m */; };
+		24E9C7D61918987300B509BA /* DecorateBubbleItemBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E9C7D51918987300B509BA /* DecorateBubbleItemBuilder.m */; };
+		24F5DACC191DDCA600451B90 /* AboutLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F5DACB191DDCA600451B90 /* AboutLayer.xib */; };
+		24F5DACF191DDE5D00451B90 /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F5DACE191DDE5D00451B90 /* AboutView.m */; };
 		24FBFA79191202800019BBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA78191202800019BBAD /* Foundation.framework */; };
 		24FBFA7B191202800019BBAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA7A191202800019BBAD /* CoreGraphics.framework */; };
 		24FBFA7D191202800019BBAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA7C191202800019BBAD /* UIKit.framework */; };
@@ -18,7 +45,7 @@
 		24FBFA85191202800019BBAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA84191202800019BBAD /* main.m */; };
 		24FBFA89191202800019BBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA88191202800019BBAD /* AppDelegate.m */; };
 		24FBFA8C191202800019BBAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFA8A191202800019BBAD /* Main.storyboard */; };
-		24FBFA8F191202800019BBAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA8E191202800019BBAD /* ViewController.m */; };
+		24FBFA8F191202800019BBAD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFA8E191202800019BBAD /* HomeViewController.m */; };
 		24FBFA91191202800019BBAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FBFA90191202800019BBAD /* Images.xcassets */; };
 		24FBFA98191202810019BBAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA97191202810019BBAD /* XCTest.framework */; };
 		24FBFA99191202810019BBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FBFA78191202800019BBAD /* Foundation.framework */; };
@@ -35,6 +62,7 @@
 		24FBFAC9191221630019BBAD /* DesmodiumCaudatum.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAC8191221630019BBAD /* DesmodiumCaudatum.m */; };
 		24FBFACC191222DA0019BBAD /* LysimachiaChristinae.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFACB191222DA0019BBAD /* LysimachiaChristinae.m */; };
 		24FBFAD2191224CE0019BBAD /* MyurocladaMaxmowiczii.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FBFAD1191224CE0019BBAD /* MyurocladaMaxmowiczii.m */; };
+		45661A2A662349D18D238F21 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D38D90EF954A95B4A805DB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +76,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05D38D90EF954A95B4A805DB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		24868E6319163465002E8F67 /* SlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenu.h; sourceTree = "<group>"; };
+		24868E6419163465002E8F67 /* SlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenu.m; sourceTree = "<group>"; };
+		24A4A640191729520054A67A /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		24A4A641191729520054A67A /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		24A4A64419172AB30054A67A /* CoarseBubbleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoarseBubbleItem.h; sourceTree = "<group>"; };
+		24A4A64519172AB30054A67A /* CoarseBubbleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoarseBubbleItem.m; sourceTree = "<group>"; };
+		24A4A64719172D070054A67A /* CoarseBubbleItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoarseBubbleItem1.h; sourceTree = "<group>"; };
+		24A4A64819172D070054A67A /* CoarseBubbleItem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoarseBubbleItem1.m; sourceTree = "<group>"; };
+		24A4A64B191740C60054A67A /* CoarseBubbleItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoarseBubbleItemBuilder.h; sourceTree = "<group>"; };
+		24A4A64C191740C60054A67A /* CoarseBubbleItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoarseBubbleItemBuilder.m; sourceTree = "<group>"; };
+		24A4A64F19174B420054A67A /* CoarseBubbleItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoarseBubbleItem2.h; sourceTree = "<group>"; };
+		24A4A65019174B420054A67A /* CoarseBubbleItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoarseBubbleItem2.m; sourceTree = "<group>"; };
+		24BA92011914F80400DB4067 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		24BA92021914F80400DB4067 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		24CC0CF0191226F200CD3A19 /* CyperusCompressus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyperusCompressus.h; sourceTree = "<group>"; };
 		24CC0CF1191226F200CD3A19 /* CyperusCompressus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyperusCompressus.m; sourceTree = "<group>"; };
 		24CC0CF31912282900CD3A19 /* AdiantumPedatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdiantumPedatum.h; sourceTree = "<group>"; };
@@ -56,6 +99,45 @@
 		24CC0CF7191228E500CD3A19 /* Pachysandraterminalis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pachysandraterminalis.m; sourceTree = "<group>"; };
 		24CC0CF9191229DD00CD3A19 /* RhaphiolepisIndica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RhaphiolepisIndica.h; sourceTree = "<group>"; };
 		24CC0CFA191229DD00CD3A19 /* RhaphiolepisIndica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RhaphiolepisIndica.m; sourceTree = "<group>"; };
+		24D1324B191A035400B3B1A2 /* PlantBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble.h; sourceTree = "<group>"; };
+		24D1324C191A035400B3B1A2 /* PlantBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble.m; sourceTree = "<group>"; };
+		24D1324E191A07D900B3B1A2 /* PlantBubble1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble1.h; sourceTree = "<group>"; };
+		24D1324F191A07D900B3B1A2 /* PlantBubble1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble1.m; sourceTree = "<group>"; };
+		24D13252191A0A8600B3B1A2 /* PlantBubbleItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubbleItemBuilder.h; sourceTree = "<group>"; };
+		24D13253191A0A8600B3B1A2 /* PlantBubbleItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubbleItemBuilder.m; sourceTree = "<group>"; };
+		24D13255191A116100B3B1A2 /* PlantBubble2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble2.h; sourceTree = "<group>"; };
+		24D13256191A116100B3B1A2 /* PlantBubble2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble2.m; sourceTree = "<group>"; };
+		24D13258191A11A600B3B1A2 /* PlantBubble3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble3.h; sourceTree = "<group>"; };
+		24D13259191A11A600B3B1A2 /* PlantBubble3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble3.m; sourceTree = "<group>"; };
+		24D1325B191A11F900B3B1A2 /* PlantBubble4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble4.h; sourceTree = "<group>"; };
+		24D1325C191A11F900B3B1A2 /* PlantBubble4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble4.m; sourceTree = "<group>"; };
+		24D1325E191A123600B3B1A2 /* PlantBubble5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble5.h; sourceTree = "<group>"; };
+		24D1325F191A123600B3B1A2 /* PlantBubble5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble5.m; sourceTree = "<group>"; };
+		24D13261191A127300B3B1A2 /* PlantBubble6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble6.h; sourceTree = "<group>"; };
+		24D13262191A127300B3B1A2 /* PlantBubble6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble6.m; sourceTree = "<group>"; };
+		24D13264191A129A00B3B1A2 /* PlantBubble7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlantBubble7.h; sourceTree = "<group>"; };
+		24D13265191A129A00B3B1A2 /* PlantBubble7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlantBubble7.m; sourceTree = "<group>"; };
+		24E9C7B61918843500B509BA /* CultureBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CultureBubble.h; sourceTree = "<group>"; };
+		24E9C7B71918843500B509BA /* CultureBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CultureBubble.m; sourceTree = "<group>"; };
+		24E9C7B91918847200B509BA /* CultureBubble1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CultureBubble1.h; sourceTree = "<group>"; };
+		24E9C7BA1918847200B509BA /* CultureBubble1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CultureBubble1.m; sourceTree = "<group>"; };
+		24E9C7BC191884DA00B509BA /* CultureBubble2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CultureBubble2.h; sourceTree = "<group>"; };
+		24E9C7BD191884DA00B509BA /* CultureBubble2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CultureBubble2.m; sourceTree = "<group>"; };
+		24E9C7C01918858B00B509BA /* CultureBubbleItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CultureBubbleItemBuilder.h; sourceTree = "<group>"; };
+		24E9C7C11918858B00B509BA /* CultureBubbleItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CultureBubbleItemBuilder.m; sourceTree = "<group>"; };
+		24E9C7C71918971300B509BA /* DecorateBubbleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateBubbleItem.h; sourceTree = "<group>"; };
+		24E9C7C81918971300B509BA /* DecorateBubbleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateBubbleItem.m; sourceTree = "<group>"; };
+		24E9C7CA1918973C00B509BA /* DecorateBubbleItem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateBubbleItem1.h; sourceTree = "<group>"; };
+		24E9C7CB1918973C00B509BA /* DecorateBubbleItem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateBubbleItem1.m; sourceTree = "<group>"; };
+		24E9C7CD1918978D00B509BA /* DecorateBubbleItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateBubbleItem2.h; sourceTree = "<group>"; };
+		24E9C7CE1918978D00B509BA /* DecorateBubbleItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateBubbleItem2.m; sourceTree = "<group>"; };
+		24E9C7D0191897A900B509BA /* DecorateBubbleItem3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateBubbleItem3.h; sourceTree = "<group>"; };
+		24E9C7D1191897A900B509BA /* DecorateBubbleItem3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateBubbleItem3.m; sourceTree = "<group>"; };
+		24E9C7D41918987300B509BA /* DecorateBubbleItemBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecorateBubbleItemBuilder.h; sourceTree = "<group>"; };
+		24E9C7D51918987300B509BA /* DecorateBubbleItemBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecorateBubbleItemBuilder.m; sourceTree = "<group>"; };
+		24F5DACB191DDCA600451B90 /* AboutLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutLayer.xib; sourceTree = "<group>"; };
+		24F5DACD191DDE5D00451B90 /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		24F5DACE191DDE5D00451B90 /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
 		24FBFA75191202800019BBAD /* ChengShiHuangYe-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChengShiHuangYe-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FBFA78191202800019BBAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24FBFA7A191202800019BBAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,8 +149,8 @@
 		24FBFA87191202800019BBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24FBFA88191202800019BBAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24FBFA8B191202800019BBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		24FBFA8D191202800019BBAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24FBFA8E191202800019BBAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24FBFA8D191202800019BBAD /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		24FBFA8E191202800019BBAD /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		24FBFA90191202800019BBAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24FBFA96191202800019BBAD /* ChengShiHuangYe-iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChengShiHuangYe-iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FBFA97191202810019BBAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -94,6 +176,7 @@
 		24FBFACB191222DA0019BBAD /* LysimachiaChristinae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LysimachiaChristinae.m; sourceTree = "<group>"; };
 		24FBFAD0191224CE0019BBAD /* MyurocladaMaxmowiczii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyurocladaMaxmowiczii.h; sourceTree = "<group>"; };
 		24FBFAD1191224CE0019BBAD /* MyurocladaMaxmowiczii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyurocladaMaxmowiczii.m; sourceTree = "<group>"; };
+		EF6CB1BCF2C64496BF2AD113 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +188,7 @@
 				24FBFA7B191202800019BBAD /* CoreGraphics.framework in Frameworks */,
 				24FBFA7D191202800019BBAD /* UIKit.framework in Frameworks */,
 				24FBFA79191202800019BBAD /* Foundation.framework in Frameworks */,
+				45661A2A662349D18D238F21 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +205,154 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24868E661916346A002E8F67 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				24868E6319163465002E8F67 /* SlideMenu.h */,
+				24868E6419163465002E8F67 /* SlideMenu.m */,
+				24A4A643191729EA0054A67A /* SlideMenuItem */,
+			);
+			name = SlideMenu;
+			sourceTree = "<group>";
+		};
+		24A4A643191729EA0054A67A /* SlideMenuItem */ = {
+			isa = PBXGroup;
+			children = (
+				24A4A640191729520054A67A /* MenuButton.h */,
+				24A4A641191729520054A67A /* MenuButton.m */,
+				24E9C7C6191896C000B509BA /* DecorateBubble */,
+				24A4A64A19172E3C0054A67A /* CoarseBubble */,
+				24E9C7B51918841100B509BA /* CultureBubble */,
+				24D1324A191A032C00B3B1A2 /* PlantBubble */,
+			);
+			name = SlideMenuItem;
+			sourceTree = "<group>";
+		};
+		24A4A64A19172E3C0054A67A /* CoarseBubble */ = {
+			isa = PBXGroup;
+			children = (
+				24A4A64419172AB30054A67A /* CoarseBubbleItem.h */,
+				24A4A64519172AB30054A67A /* CoarseBubbleItem.m */,
+				24A4A64719172D070054A67A /* CoarseBubbleItem1.h */,
+				24A4A64819172D070054A67A /* CoarseBubbleItem1.m */,
+				24A4A64F19174B420054A67A /* CoarseBubbleItem2.h */,
+				24A4A65019174B420054A67A /* CoarseBubbleItem2.m */,
+				24A4A64E19174B1F0054A67A /* Builder */,
+			);
+			name = CoarseBubble;
+			sourceTree = "<group>";
+		};
+		24A4A64E19174B1F0054A67A /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24A4A64B191740C60054A67A /* CoarseBubbleItemBuilder.h */,
+				24A4A64C191740C60054A67A /* CoarseBubbleItemBuilder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		24D1324A191A032C00B3B1A2 /* PlantBubble */ = {
+			isa = PBXGroup;
+			children = (
+				24D1324B191A035400B3B1A2 /* PlantBubble.h */,
+				24D1324C191A035400B3B1A2 /* PlantBubble.m */,
+				24D1324E191A07D900B3B1A2 /* PlantBubble1.h */,
+				24D1324F191A07D900B3B1A2 /* PlantBubble1.m */,
+				24D13255191A116100B3B1A2 /* PlantBubble2.h */,
+				24D13256191A116100B3B1A2 /* PlantBubble2.m */,
+				24D13258191A11A600B3B1A2 /* PlantBubble3.h */,
+				24D13259191A11A600B3B1A2 /* PlantBubble3.m */,
+				24D1325B191A11F900B3B1A2 /* PlantBubble4.h */,
+				24D1325C191A11F900B3B1A2 /* PlantBubble4.m */,
+				24D1325E191A123600B3B1A2 /* PlantBubble5.h */,
+				24D1325F191A123600B3B1A2 /* PlantBubble5.m */,
+				24D13261191A127300B3B1A2 /* PlantBubble6.h */,
+				24D13262191A127300B3B1A2 /* PlantBubble6.m */,
+				24D13264191A129A00B3B1A2 /* PlantBubble7.h */,
+				24D13265191A129A00B3B1A2 /* PlantBubble7.m */,
+				24D13251191A0A3D00B3B1A2 /* Builder */,
+			);
+			name = PlantBubble;
+			sourceTree = "<group>";
+		};
+		24D13251191A0A3D00B3B1A2 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24D13252191A0A8600B3B1A2 /* PlantBubbleItemBuilder.h */,
+				24D13253191A0A8600B3B1A2 /* PlantBubbleItemBuilder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		24E9C7B51918841100B509BA /* CultureBubble */ = {
+			isa = PBXGroup;
+			children = (
+				24E9C7B61918843500B509BA /* CultureBubble.h */,
+				24E9C7B71918843500B509BA /* CultureBubble.m */,
+				24E9C7B91918847200B509BA /* CultureBubble1.h */,
+				24E9C7BA1918847200B509BA /* CultureBubble1.m */,
+				24E9C7BC191884DA00B509BA /* CultureBubble2.h */,
+				24E9C7BD191884DA00B509BA /* CultureBubble2.m */,
+				24E9C7BF1918855800B509BA /* Builder */,
+			);
+			name = CultureBubble;
+			sourceTree = "<group>";
+		};
+		24E9C7BF1918855800B509BA /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24E9C7C01918858B00B509BA /* CultureBubbleItemBuilder.h */,
+				24E9C7C11918858B00B509BA /* CultureBubbleItemBuilder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		24E9C7C6191896C000B509BA /* DecorateBubble */ = {
+			isa = PBXGroup;
+			children = (
+				24E9C7C71918971300B509BA /* DecorateBubbleItem.h */,
+				24E9C7C81918971300B509BA /* DecorateBubbleItem.m */,
+				24E9C7CA1918973C00B509BA /* DecorateBubbleItem1.h */,
+				24E9C7CB1918973C00B509BA /* DecorateBubbleItem1.m */,
+				24E9C7CD1918978D00B509BA /* DecorateBubbleItem2.h */,
+				24E9C7CE1918978D00B509BA /* DecorateBubbleItem2.m */,
+				24E9C7D0191897A900B509BA /* DecorateBubbleItem3.h */,
+				24E9C7D1191897A900B509BA /* DecorateBubbleItem3.m */,
+				24E9C7D31918985C00B509BA /* Builder */,
+			);
+			name = DecorateBubble;
+			sourceTree = "<group>";
+		};
+		24E9C7D31918985C00B509BA /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24E9C7D41918987300B509BA /* DecorateBubbleItemBuilder.h */,
+				24E9C7D51918987300B509BA /* DecorateBubbleItemBuilder.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		24EE31611914AC3800E11448 /* SampleLayer */ = {
+			isa = PBXGroup;
+			children = (
+				24BA92011914F80400DB4067 /* SampleViewController.h */,
+				24BA92021914F80400DB4067 /* SampleViewController.m */,
+				24F5DACA191DDB8500451B90 /* AboutView */,
+				24868E661916346A002E8F67 /* SlideMenu */,
+			);
+			name = SampleLayer;
+			sourceTree = "<group>";
+		};
+		24F5DACA191DDB8500451B90 /* AboutView */ = {
+			isa = PBXGroup;
+			children = (
+				24F5DACB191DDCA600451B90 /* AboutLayer.xib */,
+				24F5DACD191DDE5D00451B90 /* AboutView.h */,
+				24F5DACE191DDE5D00451B90 /* AboutView.m */,
+			);
+			name = AboutView;
+			sourceTree = "<group>";
+		};
 		24FBFA6C191202800019BBAD = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +360,7 @@
 				24FBFA9D191202810019BBAD /* ChengShiHuangYe-iPadTests */,
 				24FBFA77191202800019BBAD /* Frameworks */,
 				24FBFA76191202800019BBAD /* Products */,
+				EF6CB1BCF2C64496BF2AD113 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +381,7 @@
 				24FBFA7A191202800019BBAD /* CoreGraphics.framework */,
 				24FBFA7C191202800019BBAD /* UIKit.framework */,
 				24FBFA97191202810019BBAD /* XCTest.framework */,
+				05D38D90EF954A95B4A805DB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,8 +393,6 @@
 				24FBFA87191202800019BBAD /* AppDelegate.h */,
 				24FBFA88191202800019BBAD /* AppDelegate.m */,
 				24FBFA8A191202800019BBAD /* Main.storyboard */,
-				24FBFA8D191202800019BBAD /* ViewController.h */,
-				24FBFA8E191202800019BBAD /* ViewController.m */,
 				24FBFA90191202800019BBAD /* Images.xcassets */,
 				24FBFA7F191202800019BBAD /* Supporting Files */,
 			);
@@ -202,6 +434,7 @@
 				24FBFAB1191205810019BBAD /* LayerView.h */,
 				24FBFAB2191205810019BBAD /* LayerView.m */,
 				24FBFAB7191207270019BBAD /* HomeView */,
+				24EE31611914AC3800E11448 /* SampleLayer */,
 			);
 			name = LayerView;
 			sourceTree = "<group>";
@@ -209,6 +442,8 @@
 		24FBFAB7191207270019BBAD /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				24FBFA8D191202800019BBAD /* HomeViewController.h */,
+				24FBFA8E191202800019BBAD /* HomeViewController.m */,
 				24FBFAB4191205E30019BBAD /* HomeView.h */,
 				24FBFAB5191205E30019BBAD /* HomeView.m */,
 				24FBFAB81912074A0019BBAD /* Gravity.h */,
@@ -252,9 +487,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24FBFAA7191202810019BBAD /* Build configuration list for PBXNativeTarget "ChengShiHuangYe-iPad" */;
 			buildPhases = (
+				FEB6EB984DE14941BB6B00EC /* Check Pods Manifest.lock */,
 				24FBFA71191202800019BBAD /* Sources */,
 				24FBFA72191202800019BBAD /* Frameworks */,
 				24FBFA73191202800019BBAD /* Resources */,
+				978E96B690C04A6186EDE50D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,6 +561,7 @@
 				24FBFA91191202800019BBAD /* Images.xcassets in Resources */,
 				24FBFA83191202800019BBAD /* InfoPlist.strings in Resources */,
 				24FBFA8C191202800019BBAD /* Main.storyboard in Resources */,
+				24F5DACC191DDCA600451B90 /* AboutLayer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,27 +575,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		978E96B690C04A6186EDE50D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB6EB984DE14941BB6B00EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24FBFA71191202800019BBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24FBFAD2191224CE0019BBAD /* MyurocladaMaxmowiczii.m in Sources */,
-				24FBFA8F191202800019BBAD /* ViewController.m in Sources */,
+				24E9C7C91918971300B509BA /* DecorateBubbleItem.m in Sources */,
+				24D13263191A127300B3B1A2 /* PlantBubble6.m in Sources */,
+				24FBFA8F191202800019BBAD /* HomeViewController.m in Sources */,
+				24F5DACF191DDE5D00451B90 /* AboutView.m in Sources */,
+				24E9C7B81918843500B509BA /* CultureBubble.m in Sources */,
 				24FBFACC191222DA0019BBAD /* LysimachiaChristinae.m in Sources */,
 				24CC0CF51912282900CD3A19 /* AdiantumPedatum.m in Sources */,
+				24D1325D191A11F900B3B1A2 /* PlantBubble4.m in Sources */,
+				24D1324D191A035400B3B1A2 /* PlantBubble.m in Sources */,
 				24FBFAC9191221630019BBAD /* DesmodiumCaudatum.m in Sources */,
 				24CC0CFB191229DD00CD3A19 /* RhaphiolepisIndica.m in Sources */,
+				24E9C7CF1918978D00B509BA /* DecorateBubbleItem2.m in Sources */,
 				24CC0CF2191226F200CD3A19 /* CyperusCompressus.m in Sources */,
+				24D13254191A0A8600B3B1A2 /* PlantBubbleItemBuilder.m in Sources */,
+				24A4A64D191740C60054A67A /* CoarseBubbleItemBuilder.m in Sources */,
+				24D1325A191A11A600B3B1A2 /* PlantBubble3.m in Sources */,
 				24FBFAC619121DC30019BBAD /* HomeViewPlantBuilder.m in Sources */,
+				24A4A64919172D070054A67A /* CoarseBubbleItem1.m in Sources */,
+				24E9C7C21918858B00B509BA /* CultureBubbleItemBuilder.m in Sources */,
+				24D13266191A129A00B3B1A2 /* PlantBubble7.m in Sources */,
+				24D13260191A123600B3B1A2 /* PlantBubble5.m in Sources */,
+				24BA92031914F80400DB4067 /* SampleViewController.m in Sources */,
+				24A4A642191729520054A67A /* MenuButton.m in Sources */,
 				24FBFA89191202800019BBAD /* AppDelegate.m in Sources */,
+				24E9C7BB1918847200B509BA /* CultureBubble1.m in Sources */,
+				24868E6519163465002E8F67 /* SlideMenu.m in Sources */,
+				24E9C7D2191897A900B509BA /* DecorateBubbleItem3.m in Sources */,
 				24FBFAB6191205E30019BBAD /* HomeView.m in Sources */,
+				24E9C7BE191884DA00B509BA /* CultureBubble2.m in Sources */,
 				24CC0CF8191228E500CD3A19 /* Pachysandraterminalis.m in Sources */,
 				24FBFAB3191205810019BBAD /* LayerView.m in Sources */,
 				24FBFABF191216980019BBAD /* PlantInfo.m in Sources */,
+				24A4A65119174B420054A67A /* CoarseBubbleItem2.m in Sources */,
+				24D13250191A07D900B3B1A2 /* PlantBubble1.m in Sources */,
 				24FBFABA1912074A0019BBAD /* Gravity.m in Sources */,
+				24D13257191A116100B3B1A2 /* PlantBubble2.m in Sources */,
+				24A4A64619172AB30054A67A /* CoarseBubbleItem.m in Sources */,
 				24FBFA85191202800019BBAD /* main.m in Sources */,
 				24FBFAC2191217180019BBAD /* ScutellariaIndica.m in Sources */,
+				24E9C7CC1918973C00B509BA /* DecorateBubbleItem1.m in Sources */,
+				24E9C7D61918987300B509BA /* DecorateBubbleItemBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +778,7 @@
 		};
 		24FBFAA8191202810019BBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6CB1BCF2C64496BF2AD113 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -495,6 +793,7 @@
 		};
 		24FBFAA9191202810019BBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6CB1BCF2C64496BF2AD113 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

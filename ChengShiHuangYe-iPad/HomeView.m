@@ -28,8 +28,9 @@
     {
         UIImageView* bg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"homeBg"]];
         [self addSubview:bg];   //bg
-        [self treeView];                                                                        //tree
+        [self treeView];        //tree
         [self plantInfo];
+        [self addLogo];
     }
     return self;
 }
@@ -62,7 +63,19 @@
     return _treeView;
 }
 
+-(void) gotoNextView:(id)sender
+{
+    [self leaveLayer];
+    [self.controllerDelegate gotoNextController];
+}
 
+-(void) addLogo
+{
+    UIButton* logo=[[UIButton alloc] initWithFrame:CGRectMake(self.frame.size.width/2-110, self.frame.size.height/2-110, 220, 220)];
+    [logo setImage:[UIImage imageNamed:@"logo"] forState:UIControlStateNormal];
+    [logo addTarget:self action:@selector(gotoNextView:) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:logo];
+}
 
 -(void) setTreeWithPositionY:(CGFloat)positionY
 {
@@ -72,7 +85,7 @@
 
 -(void) setTree
 {
-    return ;
+  //  NSLog(@"set Tree");
     CGFloat maxOffsetY=-50;
     Gravity* gravity=[Gravity sharedGravity];
     CMAcceleration accelerometer=[gravity getGravity];
@@ -86,11 +99,18 @@
     Gravity* gravity=[Gravity sharedGravity];
     [gravity startMotion];
     [self.gravityTimer fire];
+    
+    for (PlantInfo* obj in self.plantInfo)
+    {
+        [obj bubbleShine];
+    }
 }
 
 -(void) leaveLayer
 {
     Gravity* gravity=[Gravity sharedGravity];
+    [self.gravityTimer invalidate];
+    self.gravityTimer=nil;
     [gravity stopMotion];
 }
 

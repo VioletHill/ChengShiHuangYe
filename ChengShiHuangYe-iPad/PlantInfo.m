@@ -41,7 +41,6 @@
     if (_bubbleImage==nil)
     {
         _bubbleImage=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bubble"]];
-        [self shine:_bubbleImage];
         [self addSubview:_bubbleImage];
     }
     return _bubbleImage;
@@ -103,6 +102,11 @@
     {
         [self hidePlant:sender];
     }
+}
+
+-(void) bubbleShine
+{
+     [self shine:_bubbleImage];
 }
 
 /*
