@@ -158,19 +158,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="box1" width="317" height="380"/>
-        <image name="box2" width="317" height="380"/>
+        <image name="box1" width="318" height="381"/>
+        <image name="box2" width="318" height="381"/>
         <image name="coarseSoil1" width="283" height="117"/>
-        <image name="cultureSoil1" width="283" height="195"/>
-        <image name="decorateSoil1" width="282" height="82"/>
-        <image name="doubleClickGuide" width="76" height="108"/>
-        <image name="plant1" width="147" height="101"/>
+        <image name="cultureSoil1" width="283" height="196"/>
+        <image name="decorateSoil1" width="282" height="83"/>
+        <image name="doubleClickGuide" width="77" height="108"/>
+        <image name="plant1" width="147" height="102"/>
         <image name="plant2" width="144" height="87"/>
-        <image name="plant3" width="182" height="55"/>
-        <image name="plant4" width="117" height="122"/>
-        <image name="plant5" width="57" height="127"/>
-        <image name="plant6" width="66" height="127"/>
-        <image name="plant7" width="50" height="178"/>
+        <image name="plant3" width="182" height="56"/>
+        <image name="plant4" width="117" height="123"/>
+        <image name="plant5" width="58" height="128"/>
+        <image name="plant6" width="67" height="127"/>
+        <image name="plant7" width="51" height="178"/>
         <image name="sampleBg" width="1024" height="768"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -19,7 +19,7 @@
         CGFloat positionX=relyItem.frame.origin.x+relyItem.frame.size.width;
         CGFloat positionY=relyItem.frame.origin.y+self.space+106;
 
-        _bubble=[[UIButton alloc] initWithFrame:CGRectMake(positionX, positionY, 158, 9)];
+        _bubble=[[UIButton alloc] initWithFrame:CGRectMake(positionX, positionY, 158, 94)];
         [_bubble setImage:[UIImage imageNamed:@"cultureBubble2"] forState:UIControlStateNormal];
         [_bubble addTarget:self action:@selector(bubbleClick:) forControlEvents:UIControlEventTouchUpInside];
         [relyItem.superview addSubview:_bubble];
