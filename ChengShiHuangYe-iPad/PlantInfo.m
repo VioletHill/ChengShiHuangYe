@@ -29,7 +29,7 @@
     if (_bubble==nil)
     {
         [self bubbleImage];
-        _bubble=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 22, 22)];
+        _bubble=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
         [self.bubble addTarget:self action:@selector(plantToggle:) forControlEvents:UIControlEventTouchDown];
         [self addSubview:_bubble];
     }
